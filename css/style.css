@@ -125,3 +125,36 @@ body {
   background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
   z-index: -2;
 }
+
+/* ********************* MAIN ********************* */
+
+/* ********************* CHOOS-COLOR ********************* */
+
+.choose-color {
+  padding: 45px 0 180px;
+  text-align: center;
+}
+
+.choose-color-title {
+  font-weight: 700;
+  font-size: 36px;
+  max-width: 555px;
+  margin: 0 auto 20px;
+}
+
+.choose-color-text {
+  max-width: 555px;
+  margin: 0 auto 80px;
+}
+
+.choose-color-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.choos-color-btn {
+  border: 1px solid #777;
+  border-radius: 20px;
+  padding: 50px 55px;
+}
