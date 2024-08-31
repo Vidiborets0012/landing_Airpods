@@ -40,6 +40,16 @@ body {
   margin: 0 auto;
 }
 
+.main-title {
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0;
+}
+
 /* ********************* HEADER ********************* */
 .header {
   /* background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%); */
@@ -157,4 +167,35 @@ body {
   border: 1px solid #777;
   border-radius: 20px;
   padding: 50px 55px;
+}
+
+/* ********************* COMPOSITION ********************* */
+
+.composition {
+  margin-bottom: 180px;
+}
+
+.composition-title {
+  text-align: center;
+}
+
+.composition-text {
+  max-width: 655px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+.composition-inner {
+  max-width: 625px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.composition-inner-text p {
+  width: 230px;
+}
+.composition-inner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
