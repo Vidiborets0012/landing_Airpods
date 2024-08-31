@@ -46,6 +46,9 @@ body {
   margin-bottom: 20px;
 }
 
+h1,
+h2,
+h3,
 p {
   margin: 0;
 }
@@ -198,4 +201,33 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* ********************* CASE ********************* */
+
+.case {
+  background-color: #fafafa;
+  padding: 80px 0 100px;
+  text-align: center;
+}
+
+.case-text {
+  max-width: 825px;
+  margin: 0 auto 40px;
+}
+
+.energy-title {
+  padding-top: 160px;
+  margin-bottom: 40px;
+}
+
+.energy-num {
+  font-size: 210px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.energy-text {
+  max-width: 403px;
+  margin: 0 auto;
 }
