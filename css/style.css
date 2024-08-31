@@ -283,7 +283,7 @@ p {
 .audio-box {
   text-align: center;
   color: #fff;
-  padding-bottom: 30vh;
+  padding-bottom: 50vh;
 }
 
 .audio-text {
@@ -305,4 +305,19 @@ p {
 .footer {
   background-color: #000;
   padding: 50px 0 40px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer-text {
+  padding: 20px 0;
+}
+
+.footer-list {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
 }
