@@ -143,8 +143,28 @@ p {
   right: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
+  /* background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%); */
   z-index: -2;
+}
+
+.header-content-images:has(.color-skyblue.content-item-active):before {
+  background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
+}
+
+.header-content-images:has(.color-green.content-item-active):before {
+  background: linear-gradient(180deg, #ddead9 0%, rgba(235, 235, 235, 0) 100%);
+}
+
+.header-content-images:has(.color-pink.content-item-active):before {
+  background: linear-gradient(180deg, #f3d6d1 0%, rgba(235, 235, 235, 0) 100%);
+}
+
+.header-content-images:has(.color-silver.content-item-active):before {
+  background: linear-gradient(180deg, #fafafa 0%, rgba(235, 235, 235, 0) 100%);
+}
+
+.header-content-images:has(.color-spacegray.content-item-active):before {
+  background: linear-gradient(180deg, #b6b6b6 0%, rgba(235, 235, 235, 0) 100%);
 }
 
 /* ********************* MAIN ********************* */
