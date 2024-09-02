@@ -172,6 +172,10 @@ p {
   padding: 50px 55px;
 }
 
+.choos-color-btn.choos-color-btn-active {
+  display: none;
+}
+
 /* ********************* COMPOSITION ********************* */
 
 .composition {
